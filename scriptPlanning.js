@@ -59,7 +59,7 @@ function sauvegarderPlanning(){
     console.log(data);
     
     let json = JSON.stringify(data);
-    window.location.href = "writeJSON.php?json=" + json;
+    window.location.href = "https://melowee.github.io/writeJSON.php?json=" + json;
 }
 
 function splitHTML(HTMLLine, jour){
