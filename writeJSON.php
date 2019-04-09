@@ -5,3 +5,7 @@
     fwrite($jsonFile, $_GET['json']);
     fclose($jsonFile);
 ?>
+<!DOCTYPE html>
+<html>
+    vous allez etre redirigé
+</html>
