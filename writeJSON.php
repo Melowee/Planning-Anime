@@ -1,5 +1,5 @@
 <?php
-    header('Location: https://dauchez-clement-portfolio.000webhostapp.com/private/planning/planning.html');
+    header('Location: https://melowee.github.io/Planning-Anime/index.html');
     
     $jsonFile = fopen("animes.json", "w");
     fwrite($jsonFile, $_GET['json']);
