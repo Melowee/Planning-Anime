@@ -4,13 +4,46 @@
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="./bootstrap.min.css" />
 		<link rel="stylesheet" href="./style.css" />
+		<script type="text/javascript" src="jquery-3.4.0.min.js"></script>
 		<title>Planning Anime V2</title>
+		<style>
+			td {
+				width: calc(100% / 7);
+			}
+			
+			img{
+				width: 100%;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="container text-center">
 				<h1>Planning de sorties d'épisodes</h1>
+				<table class="table">
+					<thead>
+						<th>Lundi</th>
+						<th>Mardi</th>
+						<th>Mercredi</th>
+						<th>Jeudi</th>
+						<th>Vendredi</th>
+						<th>Samedi</th>
+						<th>Dimanche</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="Lundi"></td>
+							<td id="Mardi"></td>
+							<td id="Mercredi"></td>
+							<td id="Jeudi"></td>
+							<td id="Vendredi"></td>
+							<td id="Samedi"></td>
+							<td id="Dimanche"></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
+		<script type="text/javascript" src="./script.js"></script>
 	</body>
 </html>
