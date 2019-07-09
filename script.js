@@ -58,7 +58,8 @@ function updatePlanning(htmlDoc) {
 }
 
 function getAnimelist(pseudo) {
-	const proxy = 'https://cors-anywhere.herokuapp.com/';
+	//const proxy = 'https://cors-anywhere.herokuapp.com/';
+	const proxy = 'https://cors-proxy.htmldriven.com/?url=';
 	const AG = 'https://www.anime-gate.net/animelist/';
 
     $.get(proxy + AG  + pseudo, function(data) {
